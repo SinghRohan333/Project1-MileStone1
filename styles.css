@@ -28,15 +28,26 @@ main {
   margin: 29.76px 500.64px 29.76px 123.6px;
 }
 .SignIn-btn button {
-  box-sizing: border-box;
-  border: 1px solid rgb(0, 106, 80);
-  border-radius: 8px;
-  position: static;
+  color: rgb(0, 106, 80);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
   width: 116px;
   height: 52px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid rgb(0, 106, 80);
   margin: 23.04px 100.2px 23.04px 452.16px;
   cursor: pointer;
+  position: static;
 }
+.SignIn-btn button:hover {
+  background-color: rgb(9, 121, 105);
+  color: rgb(229, 229, 229);
+}
+
 .banner {
   width: 1302px;
   height: 70vh;
@@ -84,6 +95,17 @@ main {
   padding-top: 16px;
   padding-bottom: 16px;
   cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  border: 0px;
+}
+.Explore-btn button:hover {
+  background-color: #002d62;
+  color: aliceblue;
 }
 
 .image-container img {
@@ -95,7 +117,7 @@ main {
 }
 
 .pillars,
-.vision {
+.vision h4 {
   color: rgb(14, 14, 14);
   font-size: 40px;
   font-weight: 700;
@@ -203,4 +225,294 @@ main {
   text-align: left;
   margin-left: 35px;
   padding-top: 4px;
+}
+.vision p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 121px;
+  padding-top: 21px;
+}
+.visionBox {
+  position: static;
+  width: 1460px;
+  height: 40vh;
+  padding-top: 32px;
+  display: flex;
+  gap: 35px;
+}
+
+.vision1stBox {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgba(84, 144, 245, 0.2);
+  position: static;
+  width: 450px;
+  height: 40vh;
+  margin-left: 121px;
+}
+.vision2ndBox {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  position: static;
+  width: 450px;
+  height: 40vh;
+}
+.vision3rdBox {
+  box-sizing: border-box;
+  border-radius: 16px;
+  background: rgb(247, 235, 207);
+  position: static;
+  width: 450px;
+  height: 40vh;
+}
+.vision1stBox img,
+.vision2ndBox img,
+.vision3rdBox img {
+  width: 75px;
+  height: 75px;
+  margin-left: 45px;
+  padding-top: 28px;
+}
+.vision1stBox h4,
+.vision2ndBox h4,
+.vision3rdBox h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 45px;
+  padding-top: 25px;
+}
+.vision1stBox p,
+.vision2ndBox p,
+.vision3rdBox p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 45px;
+  padding-top: 12px;
+}
+.learnMore1,
+.learnMore2,
+.learnMore3 {
+  padding-top: 25px;
+}
+.vision1stBox button {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  border: 0px;
+  background: rgb(84, 144, 245);
+  position: static;
+  width: 122px;
+  height: 41px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+.vision1stBox button:hover {
+  background-color: #002d62;
+  color: aliceblue;
+}
+.vision2ndBox button {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  border: 0px;
+  background: rgb(9, 161, 92);
+  position: static;
+  width: 122px;
+  height: 41px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+.vision2ndBox button:hover {
+  background-color: #355e3b;
+  color: aliceblue;
+}
+.vision3rdBox button {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  border-radius: 8px;
+  border: 0px;
+  background: rgb(255, 194, 57);
+  position: static;
+  width: 122px;
+  height: 41px;
+  margin-left: 45px;
+  cursor: pointer;
+}
+.vision3rdBox button:hover {
+  background-color: #e97451;
+  color: aliceblue;
+}
+.speechAdvisor {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 1348px;
+  height: 42vh;
+  margin-left: 121px;
+  margin-top: 32px;
+  padding-left: 24px;
+  padding-top: 24px;
+}
+.bgImage {
+  background-image: url("images/quote-bg.png");
+  background-repeat: no-repeat;
+  padding-top: 50px;
+  padding-left: 28px;
+}
+.Yunus {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  position: static;
+  width: 1232px;
+  height: 24px;
+  padding-left: 28px;
+  padding-top: 15px;
+}
+.ChiefAdvisor {
+  color: rgba(14, 14, 14, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-left: 28px;
+  padding-top: 4px;
+}
+.Opinion {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 121px;
+  margin-top: 45px;
+}
+.OpinionBox {
+  border: 0px;
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 1355px;
+  height: 60vh;
+  margin-top: 28px;
+  margin-left: 121px;
+  padding-top: 32px;
+}
+table {
+  border-collapse: collapse;
+}
+.tableBox {
+  margin-left: 32px;
+  position: static;
+  width: 1290px;
+  height: 5vh;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+}
+.FirstRow th {
+  padding: 25px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tableBox2 {
+  margin-left: 32px;
+}
+
+.question1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  position: static;
+  width: 1120px;
+  height: 10vh;
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding: 24px;
+}
+.Content1 {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgba(255, 255, 255, 0.1);
+  position: static;
+  width: 150px;
+  height: 10vh;
+}
+.Agreement1 {
+  margin: 24px;
+  padding: 12.5px 6px 12.5px 16.5px;
+  box-sizing: border-box;
+  border: 1px solid rgb(14, 14, 14);
+  border-radius: 4px;
+  background: rgb(198, 228, 214);
+  cursor: pointer;
+}
+.forOption {
+  color: rgb(14, 14, 14);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.submit-btn {
+  margin-left: 750px;
+  margin-top: -58px;
+}
+.submit-btn button {
+  box-sizing: border-box;
+  border: 2px solid rgb(14, 14, 14);
+  border-radius: 8px;
+  background: rgb(198, 228, 214);
+  width: 152px;
+  height: 44px;
+  color: rgb(14, 14, 14);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.submit-btn button:hover {
+  background-color: #36454f;
+  color: aliceblue;
 }
