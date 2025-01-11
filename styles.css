@@ -8,6 +8,10 @@
 body {
   font-family: "Fira Sans", serif;
 }
+header,
+main {
+  background: rgb(245, 245, 245);
+}
 .navbar {
   display: flex;
 }
@@ -88,4 +92,115 @@ body {
   float: right;
   padding-top: 20px;
   padding-right: 25px;
+}
+
+.pillars,
+.vision {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 121px;
+  padding-top: 72px;
+  position: static;
+  width: 1302px;
+  height: 48px;
+}
+.pillarBox {
+  position: static;
+  width: 1440px;
+  height: 35vh;
+  padding-top: 32px;
+  display: flex;
+  gap: 25px;
+}
+.pillar1stBox {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 405px;
+  height: 35vh;
+  margin-left: 121px;
+}
+.pillar2ndBox {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 405px;
+  height: 35vh;
+}
+.pillar3rdBox {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 405px;
+  height: 35vh;
+}
+.pillar4thBox {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 405px;
+  height: 35vh;
+}
+.pillar1stBox img {
+  width: 70px;
+  height: 70px;
+  margin-left: 37px;
+  padding-top: 25px;
+}
+.pillar2ndBox img {
+  width: 70px;
+  height: 70px;
+  margin-left: 37px;
+  padding-top: 25px;
+}
+.pillar3rdBox img {
+  width: 70px;
+  height: 70px;
+  margin-left: 37px;
+  padding-top: 25px;
+}
+.pillar4thBox img {
+  width: 70px;
+  height: 70px;
+  margin-left: 37px;
+  padding-top: 25px;
+}
+.pillar1stBox h4,
+.pillar2ndBox h4,
+.pillar3rdBox h4,
+.pillar4thBox h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 37px;
+  padding-top: 25px;
+}
+
+.pillar1stBox p,
+.pillar2ndBox p,
+.pillar3rdBox p,
+.pillar4thBox p {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-left: 35px;
+  padding-top: 4px;
 }
