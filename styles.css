@@ -655,7 +655,7 @@ table {
   font-weight: 700;
   line-height: 48px;
   letter-spacing: 0%;
-  text-align: center;
+  margin-left: 703px;
 }
 .donationText {
   margin-top: 20px;
@@ -665,4 +665,230 @@ table {
   line-height: 24px;
   letter-spacing: 0%;
   text-align: center;
+  position: static;
+  width: 1020px;
+  height: 48px;
+  margin-left: 305px;
+}
+.donationBox {
+  margin-left: 305px;
+  margin-top: 52px;
+  display: flex;
+  gap: 20px;
+}
+.whiteDonate {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 240px;
+  height: 128px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.colorDonate {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(198, 228, 214);
+  position: static;
+  width: 252px;
+  height: 128px;
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.whiteDonate:hover,
+.colorDonate:hover {
+  background-color: rgb(198, 228, 214);
+  color: darkblue;
+}
+.moneyBox {
+  margin-left: 310px;
+  margin-top: 32px;
+}
+.inputMoney {
+  width: 1020px;
+  height: 44px;
+  box-sizing: border-box;
+  border: 0px;
+  border-bottom: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(255, 255, 255);
+}
+.inputMoney::placeholder {
+  text-align: center;
+  padding: 5px;
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.DonateNow-btn {
+  margin-top: 32px;
+  margin-left: 750px;
+}
+.DonateNow-btn button {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  position: static;
+  width: 151px;
+  height: 56px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.DonateNow-btn button:hover {
+  background-color: #002d62;
+  color: aliceblue;
+}
+.letterBox {
+  margin-left: 121px;
+  margin-top: 40px;
+  border-radius: 24px;
+  background: rgb(198, 228, 214);
+  position: static;
+  width: 1367px;
+  height: 50vh;
+}
+
+.letterBoxText {
+  position: static;
+  width: 622px;
+  height: 60vh;
+  margin-left: 600px;
+}
+.letterBoxText h4 {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  margin-top: -300px;
+}
+.headBoxP {
+  padding-left: 94px;
+  padding-top: 14px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+.textBoxP {
+  margin-left: -80px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  padding-bottom: 24px;
+}
+.inuput-button-container {
+  display: flex;
+  overflow: hidden;
+}
+.merged-input {
+  border: 0px;
+  border-radius: 8px 0px 0px 8px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 650px;
+  height: 55px;
+  margin-left: -190px;
+  gap: 0px;
+}
+.merged-input::placeholder {
+  color: rgba(14, 14, 14, 0.3);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+  padding: 18px 40px 18px 60px;
+}
+.merged-button {
+  box-sizing: border-box;
+  border-radius: 0px 8px 8px 0px;
+  border: 0px;
+  background: rgb(0, 106, 80);
+  position: static;
+  width: 150px;
+  height: 54.8px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  position: static;
+  padding-bottom: 3px;
+  margin-left: -15px;
+}
+.merged-button:hover {
+  background-color: #002d62;
+  color: azure;
+}
+.PromiseText p {
+  padding-left: 94px;
+  padding-top: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0%;
+}
+.footerHead h4 {
+  color: rgb(14, 14, 14);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  padding-top: 50px;
+  padding-left: 700px;
+}
+.footerHead hr {
+  border: 1px solid rgba(14, 14, 14, 0.1);
+  margin-top: 31.5px;
+  margin-left: 250px;
+  position: static;
+  width: 1122px;
+  height: 0;
+}
+
+.social-icon {
+  margin-left: 720px;
+  margin-top: 55px;
+}
+.social-icon img {
+  width: 48px;
+  height: 48px;
+  padding-right: 28px;
+}
+.copyright-txt {
+  margin-top: 24px;
+}
+.copyright-txt p {
+  background-color: #f8f9fa;
+  padding: 20px;
+  font-size: 14px;
+  color: #333;
+  border-top: 1px solid #ddd;
+  padding-left: 580px;
 }
