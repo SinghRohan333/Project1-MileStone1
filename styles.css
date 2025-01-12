@@ -235,6 +235,9 @@ main {
   text-align: left;
   margin-left: 121px;
   padding-top: 21px;
+  position: static;
+  width: 1320px;
+  height: 48px;
 }
 .visionBox {
   position: static;
@@ -485,6 +488,10 @@ table {
   background: rgb(198, 228, 214);
   cursor: pointer;
 }
+.Agreement1:hover {
+  background-color: #bebebe;
+  color: blue;
+}
 .forOption {
   color: rgb(14, 14, 14);
   font-size: 16px;
@@ -515,4 +522,147 @@ table {
 .submit-btn button:hover {
   background-color: #36454f;
   color: aliceblue;
+}
+.RecentBox {
+  border-radius: 24px;
+  border: 0px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 1315px;
+  height: 50vh;
+  margin-left: 121px;
+  margin-top: 32px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+.RecentBox img {
+  border-radius: 24px;
+  position: static;
+  width: 430px;
+  height: 330px;
+}
+.rbox1 {
+  margin-left: 650px;
+  position: static;
+  width: 550px;
+  height: 60vh;
+}
+.rbox1 h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: -360px;
+  padding-bottom: 12px;
+}
+.Date-Time {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 12px;
+}
+.textRnews {
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+  padding-top: 12px;
+  padding-bottom: 32px;
+}
+.Readmore-btn {
+  border-radius: 8px;
+  border: 0px;
+  background: rgb(0, 106, 80);
+  position: static;
+  width: 139px;
+  height: 48px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+  cursor: pointer;
+}
+.Readmore-btn:hover {
+  background-color: #002d62;
+  color: aliceblue;
+}
+.RecentBox2 {
+  border-radius: 24px;
+  border: 0px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 1315px;
+  height: 50vh;
+  margin-left: 121px;
+  margin-top: -30px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+.RecentBox2 img {
+  border-radius: 24px;
+  position: static;
+  width: 430px;
+  height: 330px;
+}
+.RecentBox2R {
+  border-radius: 24px;
+  border: 0px;
+  background: rgb(255, 255, 255);
+  position: static;
+  width: 1315px;
+  height: 50vh;
+  margin-left: 121px;
+  margin-top: -45px;
+  padding-top: 48px;
+  padding-left: 48px;
+}
+.rbox1R {
+  margin-left: 175px;
+  position: static;
+  width: 550px;
+  height: 60vh;
+}
+.rbox1R h4 {
+  color: rgba(14, 14, 14, 0.8);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin-top: -360px;
+  padding-bottom: 12px;
+}
+.RecentBox2R img {
+  border-radius: 24px;
+  position: static;
+  width: 450px;
+  height: 340px;
+  float: right;
+  margin-right: 80px;
+}
+.donation {
+  color: rgb(14, 14, 14);
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.donationText {
+  margin-top: 20px;
+  color: rgba(14, 14, 14, 0.7);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: center;
 }
